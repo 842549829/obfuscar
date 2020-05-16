@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Obfuscator>
+  <Var name="InPath" value="." />
+  <Var name="OutPath" value=".\Obfuscator_Output" />
+  <Var name="UseUnicodeNames" value="true" />
+
+  <Module file="$(InPath)\ClassLibrary.Test.dll" />
+  <Module file="$(InPath)\ClassLibrary.Test2.dll" />
+  <Module file="$(InPath)\WebApplication.dll" />
+</Obfuscator>
